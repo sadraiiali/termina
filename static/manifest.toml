@@ -1,0 +1,4 @@
+name = "Termina"
+description = "آموزش تعاملی ترمینال لینوکس — FakeShell + xterm.js"
+icon = "icon.png"
+# Webxdc uses this TOML; browsers use site.webmanifest + favicon.svg

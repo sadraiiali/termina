@@ -1,0 +1,6 @@
+# Keep only manifest + tooling in git; sources re-downloaded via ./download.sh
+*
+!.gitignore
+!registry.json
+!download.sh
+!README.md

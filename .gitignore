@@ -1,0 +1,47 @@
+node_modules
+
+# Output
+.output
+.vercel
+.netlify
+.wrangler
+/.svelte-kit
+/build
+/dist
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Local private workspace (never commit)
+context/
+
+# Editor
+.vscode/
+*.log
+
+# Vendored xterm build trees
+vendor/xterm.js/node_modules/
+vendor/xterm.js/out/
+vendor/xterm.js/out-test/
+vendor/xterm.js/.nyc_output/
+
+# Upstream Linux cmd sources (re-fetch with vendor/linux-cmds/download.sh)
+vendor/linux-cmds/*
+!vendor/linux-cmds/registry.json
+!vendor/linux-cmds/download.sh
+!vendor/linux-cmds/README.md
+!vendor/linux-cmds/.gitignore
+# Not used by the app (do not vendor into public tree)
+vendor/nanos/
+vendor/nanoos/

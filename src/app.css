@@ -1,0 +1,121 @@
+/* Absolute from package root — webxdc hosts serve the zip root as origin. */
+
+/* Persian monospaced (terminal / code) — rastikerdar/vazir-code-font */
+@font-face {
+	font-family: 'Vazir Code';
+	src: url('/fonts/vazir-code/Vazir-Code.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Arad';
+	src: url('/fonts/arad/AradFDVF.woff2') format('woff2-variations'),
+		url('/fonts/arad/AradFDVF.woff2') format('woff2');
+	font-weight: 100 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Arad';
+	src: url('/fonts/arad/AradFD-Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Arad';
+	src: url('/fonts/arad/AradFD-Medium.woff2') format('woff2');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Arad';
+	src: url('/fonts/arad/AradFD-SemiBold.woff2') format('woff2');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Arad';
+	src: url('/fonts/arad/AradFD-Bold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Dark (default) */
+:root,
+:root[data-theme='dark'] {
+	--bg: #0a0e17;
+	--panel: #111827;
+	--panel-2: #1a2332;
+	--border: #2a3548;
+	--text: #e8eef7;
+	--muted: #8b9bb4;
+	--accent: #5b9dff;
+	--accent-soft: rgba(91, 157, 255, 0.14);
+	--green: #3fb950;
+	--danger: #ff7b72;
+	--code-bg: #0b1220;
+	--code-fg: #e6edf3;
+	--term-bg: #0b1220;
+	--shadow-lg: 0 24px 64px rgba(0, 0, 0, 0.55);
+	/* Shared chrome height: topbar · term-head · sidebar brand */
+	--chrome-height: 3rem;
+	/* Shared control height: icon / theme / topbar ghost buttons */
+	--control-height: 2rem;
+	--font: 'Arad', 'Segoe UI', Tahoma, system-ui, sans-serif;
+	/* Terminal + inline code: Persian-capable monospaced */
+	--mono: 'Vazir Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+:root[data-theme='light'] {
+	--bg: #f0f3f8;
+	--panel: #ffffff;
+	--panel-2: #eef2f7;
+	--border: #d5dde8;
+	--text: #152033;
+	--muted: #5b6b82;
+	--accent: #2563eb;
+	--accent-soft: rgba(37, 99, 235, 0.12);
+	--green: #15803d;
+	--danger: #dc2626;
+	--code-bg: #f6f8fc;
+	--code-fg: #1a2332;
+	--term-bg: #f6f8fc;
+	--shadow-lg: 0 24px 64px rgba(15, 23, 42, 0.18);
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	max-height: 100%;
+	background: var(--bg);
+	color: var(--text);
+	font-family: var(--font);
+	-webkit-font-smoothing: antialiased;
+	transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+body {
+	overflow: hidden;
+}
+
+button {
+	font-family: inherit;
+}
