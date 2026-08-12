@@ -3,16 +3,17 @@
 **Interactive Linux terminal lab in the browser** — Persian course content, full-screen [xterm.js](https://xtermjs.org/), and **FakeShell**: a **TypeScript fake shell** we maintain in this repo (`src/lib/fakeshell`).
 
 **Repository:** [https://github.com/sadraiiali/termina](https://github.com/sadraiiali/termina)  
-**Live demo (GitHub Pages):** [https://sadraiiali.github.io/termina/](https://sadraiiali.github.io/termina/)
+**Live demo (GitHub Pages):** [https://sadraii.ir/termina/](https://sadraii.ir/termina/)  
+(also [sadraiiali.github.io/termina](https://sadraiiali.github.io/termina/))
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](./LICENSE)
 [![GitHub](https://img.shields.io/badge/GitHub-sadraiiali%2Ftermina-181717?logo=github)](https://github.com/sadraiiali/termina)
-[![Pages](https://img.shields.io/badge/GitHub%20Pages-live-2ea44f?logo=github)](https://sadraiiali.github.io/termina/)
+[![Pages](https://img.shields.io/badge/GitHub%20Pages-live-2ea44f?logo=github)](https://sadraii.ir/termina/)
 [![Build and deploy GitHub Pages](https://github.com/sadraiiali/termina/actions/workflows/pages.yml/badge.svg)](https://github.com/sadraiiali/termina/actions/workflows/pages.yml)
 
 > **فارسی:** محیط یادگیری ترمینال لینوکس با درس فارسی و **FakeShell** — شل جعلی نوشته‌شده با TypeScript (نه لینوکس واقعی). مناسب کلاس و خودآموزی.  
 > **مخزن:** [github.com/sadraiiali/termina](https://github.com/sadraiiali/termina)  
-> **نسخه آنلاین:** [sadraiiali.github.io/termina](https://sadraiiali.github.io/termina/)  
+> **نسخه آنلاین:** [sadraii.ir/termina](https://sadraii.ir/termina/)  
 > **محتوای درس:** اقتباس از [AsaEdgerunner/linux-terminal-mastery](https://github.com/AsaEdgerunner/linux-terminal-mastery)
 
 ---
@@ -55,6 +56,19 @@ FakeShell is **application code written in TypeScript** in this project. It *loo
 - **PWA assets:** favicon, icons, `site.webmanifest`
 
 ---
+
+
+---
+
+## Deploy (GitHub Pages)
+
+Every push to `main` runs [`.github/workflows/pages.yml`](./.github/workflows/pages.yml):
+
+1. `bun install --frozen-lockfile`
+2. `bun run check` then `bun run build` (static adapter → `build/`)
+3. Deploy the artifact with GitHub Pages (`build_type: workflow`)
+
+Manual re-run: **Actions → Build and deploy GitHub Pages → Run workflow**.
 
 ## Requirements
 
@@ -215,5 +229,5 @@ GNU General Public License for more details.
 
 **Termina** — learn the terminal without waiting for a VM.  
 **Website / repo:** [github.com/sadraiiali/termina](https://github.com/sadraiiali/termina) · by [sadraiiali](https://github.com/sadraiiali)  
-**Live:** [sadraiiali.github.io/termina](https://sadraiiali.github.io/termina/)  
+**Live:** [sadraii.ir/termina](https://sadraii.ir/termina/)  
 **Course content:** [AsaEdgerunner/linux-terminal-mastery](https://github.com/AsaEdgerunner/linux-terminal-mastery)
