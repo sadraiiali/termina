@@ -151,10 +151,11 @@ Or:  sys runwasm /usr/lib/fakeshell/wasi-echo.wasm hello
 
 	write(
 		'/home/user/Documents/todo.txt',
-		`1. خواندن فصل مقدمه
-2. تمرین دستور pwd و ls
-3. ساخت پوشه projects/demo
-4. نوشتن یک اسکریپت ساده
+		`1. خواندن فصل پیشگفتار
+2. خواندن فصل مقدمه
+3. تمرین دستور pwd و ls
+4. ساخت پوشه projects/demo
+5. نوشتن یک اسکریپت ساده
 `,
 	)
 

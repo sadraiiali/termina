@@ -10,36 +10,43 @@ export interface ChapterMeta {
 /** Course outline — Farsi titles for Linux Terminal Mastery */
 export const CHAPTERS: ChapterMeta[] = [
 	{
-		id: '00-Introduction',
+		id: '00-Preface',
 		order: 0,
-		titleFa: 'پیشگفتار و مقدمه',
-		titleEn: 'Preface & Introduction',
-		practice: ['help', 'uname -a', 'whoami', 'hostname', 'cat ~/Documents/welcome.txt'],
+		titleFa: 'پیشگفتار',
+		titleEn: 'Preface',
+		practice: ['help', 'cat ~/Documents/welcome.txt', 'cat ~/TOOLS.txt'],
+	},
+	{
+		id: '00-Introduction',
+		order: 1,
+		titleFa: 'مقدمه',
+		titleEn: 'Introduction',
+		practice: ['help', 'uname -a', 'whoami', 'hostname'],
 	},
 	{
 		id: '01-Terminal-Basics',
-		order: 1,
+		order: 2,
 		titleFa: 'مبانی ترمینال',
 		titleEn: 'Terminal Basics',
 		practice: ['pwd', 'ls', 'ls -la', 'echo $USER', 'whoami', 'date'],
 	},
 	{
 		id: '02-Linux-Filesystem',
-		order: 2,
+		order: 3,
 		titleFa: 'ساختار فایل‌سیستم',
 		titleEn: 'Linux Filesystem',
 		practice: ['ls /', 'ls /etc', 'cat /etc/os-release', 'cat /etc/hostname', 'tree /home'],
 	},
 	{
 		id: '03-Navigation',
-		order: 3,
+		order: 4,
 		titleFa: 'پیمایش در سیستم',
 		titleEn: 'Navigation',
 		practice: ['pwd', 'cd /', 'cd ~', 'cd Documents', 'cd ..', 'cd ~/projects'],
 	},
 	{
 		id: '04-File-Management',
-		order: 4,
+		order: 5,
 		titleFa: 'مدیریت فایل‌ها',
 		titleEn: 'File Management',
 		practice: [
@@ -53,28 +60,28 @@ export const CHAPTERS: ChapterMeta[] = [
 	},
 	{
 		id: '05-Permissions',
-		order: 5,
+		order: 6,
 		titleFa: 'مجوزها و مالکیت',
 		titleEn: 'Permissions',
 		practice: ['ls -la ~', 'ls -la /etc', 'id', 'whoami'],
 	},
 	{
 		id: '06-Users-and-Groups',
-		order: 6,
+		order: 7,
 		titleFa: 'کاربران و گروه‌ها',
 		titleEn: 'Users and Groups',
 		practice: ['whoami', 'id', 'cat /etc/passwd', 'cat /etc/group'],
 	},
 	{
 		id: '07-Package-Management',
-		order: 7,
+		order: 8,
 		titleFa: 'مدیریت بسته‌ها',
 		titleEn: 'Package Management',
 		practice: ['help', 'which node', 'node -e "console.log(1+1)"'],
 	},
 	{
 		id: '08-Processes-and-Services',
-		order: 8,
+		order: 9,
 		titleFa: 'پردازش‌ها و سرویس‌ها',
 		titleEn: 'Processes and Services',
 		practice: [
@@ -89,7 +96,7 @@ export const CHAPTERS: ChapterMeta[] = [
 	},
 	{
 		id: '09-Linux-Networking',
-		order: 9,
+		order: 10,
 		titleFa: 'شبکه در لینوکس',
 		titleEn: 'Networking',
 		practice: [
@@ -105,14 +112,14 @@ export const CHAPTERS: ChapterMeta[] = [
 	},
 	{
 		id: '10-SSH-and-Remote-Access',
-		order: 10,
+		order: 11,
 		titleFa: 'SSH و دسترسی از راه دور',
 		titleEn: 'SSH and Remote Access',
 		practice: ['whoami', 'hostname', 'pwd'],
 	},
 	{
 		id: '11-Bash-Scripting',
-		order: 11,
+		order: 12,
 		titleFa: 'اسکریپت‌نویسی Bash',
 		titleEn: 'Bash Scripting',
 		practice: [
@@ -124,7 +131,7 @@ export const CHAPTERS: ChapterMeta[] = [
 	},
 	{
 		id: '12-Automation-and-Cron',
-		order: 12,
+		order: 13,
 		titleFa: 'خودکارسازی و Cron',
 		titleEn: 'Automation and Cron',
 		practice: [
@@ -137,21 +144,21 @@ export const CHAPTERS: ChapterMeta[] = [
 	},
 	{
 		id: '13-Linux-Security',
-		order: 13,
+		order: 14,
 		titleFa: 'امنیت لینوکس',
 		titleEn: 'Linux Security',
 		practice: ['id', 'ls -la /etc', 'cat /etc/passwd'],
 	},
 	{
 		id: '14-Disk-and-Storage',
-		order: 14,
+		order: 15,
 		titleFa: 'دیسک و ذخیره‌سازی',
 		titleEn: 'Disk and Storage',
 		practice: ['df', 'ls /mnt', 'ls /media', 'tree /home/user'],
 	},
 	{
 		id: '15-Boot-and-Systemd',
-		order: 15,
+		order: 16,
 		titleFa: 'Boot و Systemd',
 		titleEn: 'Boot and Systemd',
 		practice: [
@@ -166,14 +173,14 @@ export const CHAPTERS: ChapterMeta[] = [
 	},
 	{
 		id: '16-Linux-Server-Administration',
-		order: 16,
+		order: 17,
 		titleFa: 'مدیریت سرور',
 		titleEn: 'Server Administration',
 		practice: ['ls /var/www', 'cat /var/log/syslog', 'hostname'],
 	},
 	{
 		id: '17-Advanced-Linux-Tools',
-		order: 17,
+		order: 18,
 		titleFa: 'ابزارهای پیشرفته',
 		titleEn: 'Advanced Tools',
 		practice: [
@@ -185,7 +192,7 @@ export const CHAPTERS: ChapterMeta[] = [
 	},
 	{
 		id: '18-Final-Projects',
-		order: 18,
+		order: 19,
 		titleFa: 'پروژه‌های نهایی',
 		titleEn: 'Final Projects',
 		practice: [
