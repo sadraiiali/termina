@@ -12,9 +12,9 @@ export const CHAPTERS: ChapterMeta[] = [
 	{
 		id: '00-Introduction',
 		order: 0,
-		titleFa: 'مقدمه',
-		titleEn: 'Introduction',
-		practice: ['help', 'uname -a', 'whoami', 'hostname'],
+		titleFa: 'پیشگفتار و مقدمه',
+		titleEn: 'Preface & Introduction',
+		practice: ['help', 'uname -a', 'whoami', 'hostname', 'cat ~/Documents/welcome.txt'],
 	},
 	{
 		id: '01-Terminal-Basics',

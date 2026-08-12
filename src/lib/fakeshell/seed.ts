@@ -89,20 +89,26 @@ alias la='ls -a'
 
 	write(
 		'/home/user/Documents/welcome.txt',
-		`خوش آمدید به آزمایشگاه تعاملی ترمینال لینوکس!
+		`خوش آمدید به Termina — آزمایشگاه تعاملی ترمینال لینوکس
 
-این فایل‌سیستم مجازی (FakeShell) است و در مرورگر اجرا می‌شود.
-دستورات پایه مانند pwd، ls، cd، cat، mkdir، touch، rm و …
-را در ترمینال امتحان کنید.
+پیشگفتار
+--------
+این محیط (سایت + FakeShell) پروژهٔ Termina است.
+متن درس‌ها عمدتاً از پروژهٔ Linux Terminal Mastery اقتباس شده است.
 
-ویرایشگر: nano  و  vim  (رابط آموزشی شبیه distro — نه باینری واقعی)
-WASI: wasi-hello · wasi-echo · wasi-cat
+پروژهٔ این وب‌سایت:
+  https://github.com/sadraiiali/termina
+  https://sadraii.ir/termina/
+
+منبع محتوای آموزشی (درس‌ها):
+  https://github.com/AsaEdgerunner/linux-terminal-mastery
+  (Linux Terminal Mastery — AsaEdgerunner)
+
+این فایل‌سیستم مجازی (FakeShell) است و در مرورگر اجرا می‌شود؛
+نه لینوکس واقعی. دستورات پایه: pwd، ls، cd، cat، mkdir، touch، rm و …
+
+ویرایشگر: nano و vim (رابط آموزشی — نه باینری واقعی)
 راهنما: cat ~/TOOLS.txt   ·   man sys   ·   help
-
-وب‌سایت / مخزن (sadraiiali):
-https://github.com/sadraiiali/termina
-منبع درس‌ها:
-https://github.com/AsaEdgerunner/linux-terminal-mastery
 `,
 	)
 

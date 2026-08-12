@@ -18,6 +18,23 @@
 
 ---
 
+## پیشگفتار (Preface)
+
+این پروژه **Termina** است: وب‌سایت و آزمایشگاه تعاملی ترمینال لینوکس (رابط فارسی، xterm.js، و FakeShell).
+
+**از کدام پروژه برای محتوا استفاده شده؟**
+
+| لایه | پروژه | نقش |
+|------|--------|-----|
+| **محتوای درس (فارسی)** | [AsaEdgerunner/linux-terminal-mastery](https://github.com/AsaEdgerunner/linux-terminal-mastery) (*Linux Terminal Mastery*) | ساختار فصول، متن آموزشی و تمرین‌های متنی — **اقتباس و استفاده در Termina** |
+| **وب‌سایت و شل تعاملی** | [sadraiiali/termina](https://github.com/sadraiiali/termina) (*Termina*) | اپلیکیشن مرورگر، UI، FakeShell، ساخت و انتشار |
+
+از نویسندگان و مشارکت‌کنندگان *Linux Terminal Mastery* برای محتوای آموزشی سپاسگزاریم. مجوز و انتساب رسمی همان مخزن را رعایت کنید.
+
+درون خود اپ، همین پیشگفتار در فصل **پیشگفتار و مقدمه** (`static/course/fa/00-Introduction/`) هم آمده است.
+
+---
+
 ## Overview
 
 Termina is a **static web app** (SvelteKit). Learners read a Persian lesson and practice commands in a terminal that talks to **FakeShell** — not a remote VM or real OS.

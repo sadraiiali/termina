@@ -1,11 +1,44 @@
+# پیشگفتار
+
+این وب‌سایت و آزمایشگاه تعاملی **Termina** است: محیطی در مرورگر برای یادگیری ترمینال لینوکس، با رابط فارسی و یک **شل آموزشی (FakeShell)** که در همین پروژه پیاده‌سازی شده است.
+
+## از کدام پروژه استفاده شده؟
+
+**متن و ساختار درس‌های فارسی** این دوره عمدتاً از پروژهٔ متن‌باز زیر گرفته و برای این محیط اقتباس شده است:
+
+| مورد | توضیح |
+|------|--------|
+| **نام** | [Linux Terminal Mastery](https://github.com/AsaEdgerunner/linux-terminal-mastery) |
+| **مخزن** | [github.com/AsaEdgerunner/linux-terminal-mastery](https://github.com/AsaEdgerunner/linux-terminal-mastery) |
+| **نقش در Termina** | محتوای آموزشی (فصول، توضیحات، تمرین‌های متنی) |
+
+از سازندگان و مشارکت‌کنندگان آن پروژه برای در اختیار گذاشتن محتوای آموزشی سپاسگزاریم. برای جزئیات مجوز و انتساب، به همان مخزن مراجعه کنید.
+
+## این پروژه (Termina) چیست؟
+
+| مورد | توضیح |
+|------|--------|
+| **نام** | Termina |
+| **مخزن** | [github.com/sadraiiali/termina](https://github.com/sadraiiali/termina) |
+| **نسخه آنلاین** | [sadraii.ir/termina](https://sadraii.ir/termina/) |
+| **نقش** | وب‌اپلیکیشن، رابط کاربری، ترمینال مرورگر (xterm.js) و **FakeShell** |
+
+**خلاصهٔ تفکیک:**
+
+- **محتوای درس** ← پروژهٔ *Linux Terminal Mastery* (AsaEdgerunner)
+- **سایت، رابط، و شل تعاملی** ← پروژهٔ *Termina* ([sadraiiali](https://github.com/sadraiiali))
+
+### نکتهٔ مهم دربارهٔ ترمینال اینجا
+
+دستوری که در پنل ترمینال این صفحه می‌زنید روی یک **لینوکس واقعی** اجرا نمی‌شود. **FakeShell** یک شل آموزشی نوشته‌شده با TypeScript است: فایل‌سیستم مجازی، دستورات شبیه‌سازی‌شده (مثل `apt`، `systemctl`، `ip`) و محیط تمرین در مرورگر. برای کار واقعی روی سرور یا رایانهٔ خودتان، از ترمینال سیستم خود استفاده کنید.
+
+---
+
 # مقدمه
 
 # Linux Terminal Mastery
 
 ## From Zero to Linux Power User
-<p align="center">
-  <img src="../../../Assets/00.png" alt="Linux Terminal Mastery Banner" width="100%">
-</p>
 
 به دنیای لینوکس و قدرت خط فرمان خوش آمدید.
 
