@@ -2,13 +2,17 @@
 
 **Interactive Linux terminal lab in the browser** — Persian course content, full-screen [xterm.js](https://xtermjs.org/), and **FakeShell**: a **TypeScript fake shell** we maintain in this repo (`src/lib/fakeshell`).
 
-**Repository:** [https://github.com/sadraiiali/termina](https://github.com/sadraiiali/termina)
+**Repository:** [https://github.com/sadraiiali/termina](https://github.com/sadraiiali/termina)  
+**Live demo (GitHub Pages):** [https://sadraiiali.github.io/termina/](https://sadraiiali.github.io/termina/)
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](./LICENSE)
 [![GitHub](https://img.shields.io/badge/GitHub-sadraiiali%2Ftermina-181717?logo=github)](https://github.com/sadraiiali/termina)
+[![Pages](https://img.shields.io/badge/GitHub%20Pages-live-2ea44f?logo=github)](https://sadraiiali.github.io/termina/)
+[![Build and deploy GitHub Pages](https://github.com/sadraiiali/termina/actions/workflows/pages.yml/badge.svg)](https://github.com/sadraiiali/termina/actions/workflows/pages.yml)
 
 > **فارسی:** محیط یادگیری ترمینال لینوکس با درس فارسی و **FakeShell** — شل جعلی نوشته‌شده با TypeScript (نه لینوکس واقعی). مناسب کلاس و خودآموزی.  
 > **مخزن:** [github.com/sadraiiali/termina](https://github.com/sadraiiali/termina)  
+> **نسخه آنلاین:** [sadraiiali.github.io/termina](https://sadraiiali.github.io/termina/)  
 > **محتوای درس:** اقتباس از [AsaEdgerunner/linux-terminal-mastery](https://github.com/AsaEdgerunner/linux-terminal-mastery)
 
 ---
@@ -211,4 +215,5 @@ GNU General Public License for more details.
 
 **Termina** — learn the terminal without waiting for a VM.  
 **Website / repo:** [github.com/sadraiiali/termina](https://github.com/sadraiiali/termina) · by [sadraiiali](https://github.com/sadraiiali)  
+**Live:** [sadraiiali.github.io/termina](https://sadraiiali.github.io/termina/)  
 **Course content:** [AsaEdgerunner/linux-terminal-mastery](https://github.com/AsaEdgerunner/linux-terminal-mastery)
